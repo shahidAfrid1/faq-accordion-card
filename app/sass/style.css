@@ -87,8 +87,11 @@ main .faq-box .shadow-bg {
 @media (min-width: 650px) {
   main .faq-box .shadow-bg {
     background-image: url("/images/bg-pattern-desktop.svg");
-    width: 110px;
-    height: 100px;
+    width: 79vw;
+    height: 63.5vw;
+    position: absolute;
+    top: -19vw;
+    left: -37vw;
   }
 }
 
@@ -104,8 +107,13 @@ main .faq-box .illus-bg {
 
 @media (min-width: 650px) {
   main .faq-box .illus-bg {
-    width: 33vw;
+    position: relative;
+    width: 36vw;
+    height: 31vw;
     background-image: url("/images/illustration-woman-online-desktop.svg");
+    background-size: contain;
+    top: 5vw;
+    left: -5.8vw;
   }
 }
 
@@ -160,7 +168,7 @@ main .faq-box .container .question .qus:hover {
 }
 
 main .faq-box .container .question .qus > p {
-  font-size: 4.7vw;
+  font-size: 3.7vw;
   font-weight: 400;
 }
 
@@ -196,8 +204,8 @@ main .faq-box .container .question.active .answer {
   max-height: 100%;
   padding-bottom: 5.51%;
   font-size: 3.4vw;
-  -webkit-animation: fade .5s ease-in-out;
-          animation: fade .5s ease-in-out;
+  -webkit-animation: fade 0.5s ease-in-out;
+          animation: fade 0.5s ease-in-out;
 }
 
 @media (min-width: 650px) {
