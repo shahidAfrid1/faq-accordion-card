@@ -7,6 +7,21 @@ main {
   @media (min-width: 650px) {
     padding: 8.75% 16.4%;
   }
+  .at-bg {
+    display: none;
+    @media (min-width: 650px) {
+      display: inline;
+      background-image: url("/images/illustration-box-desktop.svg");
+      width: 14%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 43%;
+      left: 11.3%;
+      z-index: 1;
+    }
+  }
   .faq-box {
     position: relative;
     width: 88.1vw;
